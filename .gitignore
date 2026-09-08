@@ -6,3 +6,4 @@ vendor/
 .bundle/
 .worktrees/
 _config_pages.yml
+!_sass/bootstrap/vendor/
