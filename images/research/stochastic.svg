@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#f0ece4"/>
+  <path d="M20,150 H25 V141 H27 V148 H39 V140 H42 V149 H43 V158 H44 V151 H58 V142 H70 V135 H71 V127 H75 V118 H87 V111 H89 V104 H95 V95 H107 V87 H117 V94 H125 V86 H132 V79 H148 V86 H159 V78 H177 V69 H179 V76 H181 V67 H227 V74 H233 V83 H245 V74 H286 V65 H286 V57 H301 V49 H325 V58 H356 V67 H362 V59 H371 V66 H373 V75 H380 V68" fill="none" stroke="#1f5fa8" stroke-width="1.6"/>
+  <path d="M20,140 H28 V133 H52 V125 H57 V132 H73 V125 H75 V118 H90 V111 H95 V120 H105 V112 H111 V103 H119 V95 H162 V87 H173 V96 H175 V88 H176 V81 H184 V72 H185 V63 H227 V55 H228 V64 H230 V71 H243 V62 H269 V54 H278 V45 H280 V37 H299 V30 H309 V37 H312 V28 H332 V25 H348 V32 H380 V25" fill="none" stroke="#b45309" stroke-width="1.6"/>
+  <path d="M20,130 H31 V122 H36 V115 H59 V107 H78 V116 H84 V107 H106 V100 H123 V92 H131 V84 H193 V76 H199 V69 H208 V78 H222 V70 H247 V77 H270 V68 H304 V60 H323 V53 H331 V45 H332 V37 H350 V28 H368 V25 H369 V34 H380 V43" fill="none" stroke="#8a857c" stroke-width="1.6"/>
+  <line x1="20" y1="170" x2="380" y2="170" stroke="#8a857c" stroke-width="1"/>
+  <line x1="20" y1="20" x2="20" y2="170" stroke="#8a857c" stroke-width="1"/>
+
+  <text x="200" y="190" font-family="Georgia,serif" font-size="11" fill="#8a857c" text-anchor="middle">Gillespie SSA and τ-leaping trajectories</text>
+</svg>

@@ -1,0 +1,67 @@
+# Software projects, shown on the Software page in the order listed.
+# Each entry needs: name, description
+# Optional: authors, website, repo, docs, paper
+
+- name: Molly.jl
+  repo: https://github.com/JuliaMolSim/Molly.jl
+  docs: https://juliamolsim.github.io/Molly.jl/stable/
+  description: >-
+    Molecular dynamics in Julia. Contributed a native ANI-2x machine-learned
+    interatomic potential with analytic forces, portable GPU kernels via
+    KernelAbstractions (CUDA, Metal, ROCm), and benchmarks against TorchANI and
+    NNPOps, scaling to 15,000+ atom proteins. Google Summer of Code 2026.
+
+- name: JumpProcesses.jl
+  repo: https://github.com/SciML/JumpProcesses.jl
+  docs: https://docs.sciml.ai/JumpProcesses/stable/
+  description: >-
+    Jump and stochastic simulation for the SciML ecosystem. Added exact Gillespie
+    SSA and tau-leaping solvers (simple, explicit, implicit, adaptive) with
+    hand-tuned GPU kernels, and a variable-rate jump aggregator framework
+    (VR-Direct / VR-FRM) for state- and time-dependent rates coupled to ODEs.
+    SciML Fellowship 2025.
+
+- name: PoissonRandom.jl
+  repo: https://github.com/SciML/PoissonRandom.jl
+  description: >-
+    Fast Poisson random sampling in pure Julia. Contributed GPU-optimized
+    sampling that backs the tau-leaping solvers in JumpProcesses.jl.
+
+- name: SciMLBenchmarks.jl
+  repo: https://github.com/SciML/SciMLBenchmarks.jl
+  website: https://docs.sciml.ai/SciMLBenchmarksOutput/stable/
+  description: >-
+    Reproducible benchmarks for scientific-ML and differential-equation solvers.
+    Added comparisons of exact and approximate discrete stochastic solvers.
+
+- name: BandGapPredict
+  repo: https://github.com/sivasathyaseeelan/BandGapPredict
+  paper: https://doi.org/10.1038/s41598-026-56899-3
+  description: >-
+    Machine-learning and deep-learning pipeline (Random Forest, XGBoost, ANN,
+    GNN) that predicts semiconductor band gaps from elemental composition.
+    Companion code for the Scientific Reports paper.
+
+- name: StereoChemDecoder
+  repo: https://github.com/sivasathyaseeelan/StereoChemDecoder
+  description: >-
+    Python package that detects chiral centres and E/Z double bonds in SMILES
+    strings, used to study how stereochemical ambiguity degrades molecular
+    property prediction.
+
+- name: Kyverno
+  repo: https://github.com/kyverno/kyverno
+  website: https://kyverno.io
+  description: >-
+    Kubernetes-native policy engine. Built condition-validation logic in Go for
+    verifying container-image attestations (Cosign, Notary) at admission time.
+    Linux Foundation Mentorship 2024.
+
+- name: Validating Lightning Signer
+  repo: https://gitlab.com/lightning-signer/validating-lightning-signer
+  website: https://vls.tech
+  description: >-
+    Security-critical Rust service that isolates Bitcoin Lightning signing keys.
+    Raised unit-test coverage past 85%, added mutation testing with cargo-mutants,
+    and wired system-level tests against a live Core Lightning node into CI.
+    Summer of Bitcoin 2025.

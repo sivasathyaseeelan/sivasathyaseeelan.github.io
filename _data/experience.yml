@@ -1,0 +1,103 @@
+# Research and work experience, shown on the Experience page.
+# Two top-level groups: research and work. Each entry needs: role, org, period
+# Optional: advisor, advisor_url, location, url, bullets (list), tags
+
+research:
+  - role: Google Summer of Code Contributor
+    org: JuliaMolSim, University of Cambridge
+    location: Cambridge, UK (remote)
+    period: May 2026 - Sept. 2026
+    advisor: Dr. Joe G. Greener
+    advisor_url: https://scholar.google.com/citations?user=IG6H3tIAAAAJ
+    url: https://github.com/JuliaMolSim/Molly.jl
+    bullets:
+      - Implemented the ANI-2x and E(3)-equivariant (NequIP, Allegro) interatomic potentials natively in Julia for Molly.jl, enabling ML-driven molecular dynamics with no Python runtime and matching TorchANI to about 1e-6 eV/Å.
+      - Derived analytic forces via custom backpropagation through the atomic-environment-vector (AEV) and per-element networks, 7-14x faster than autodiff.
+      - Wrote portable GPU kernels with KernelAbstractions (CUDA / Metal / ROCm) that scale to proteins of 15,000+ atoms.
+      - Benchmarked against TorchANI, NNPOps, and bio-mlff; a write-reduced AEV kernel and on-device CSR made Molly-CUDA the fastest on a full 15,954-atom protein (energy 13 ms, forces 31 ms), up to 125x over host CPU.
+    tags: Julia, KernelAbstractions, CUDA, Metal, ML interatomic potentials, molecular dynamics
+
+  - role: Research Assistant
+    org: Indian Institute of Technology (BHU), Varanasi
+    location: Varanasi, India
+    period: Jul. 2024 - Present
+    advisor: Dr. V. Ramanathan
+    advisor_url: https://scholar.google.com/citations?user=oLHHKoAAAAAJ
+    bullets:
+      - Predicted semiconductor band gaps from elemental composition, benchmarking Random Forest, XGBoost, and artificial and graph neural networks to publication-grade accuracy for materials-informatics screening.
+      - Built multi-label and multi-class taste classifiers that predict a molecule's flavour profile (sweet, bitter, sour, and more) from its structure, pairing cheminformatics fingerprints with deep-learning models.
+      - Carried out ab initio electronic-structure studies of sulfur-centred hydrogen-bond cooperativity in ethane-1,2-dithiol clusters interacting with HF, H2O, and NH3.
+      - Investigated how stereochemical ambiguity in SMILES (chiral centres and E/Z isomerism) degrades molecular-property prediction.
+      - Built a consensus chemometric pipeline (PCA, PLS-DA, K-Means, VIP, SIMCA) over full-spectrum Raman data to authenticate 10 commercial ghee brands against reference fats, flagging lard adulteration and ruling out palm oil.
+    tags: Materials informatics, cheminformatics, DFT, chemometrics, PyTorch, RDKit
+
+  - role: SciML Fellow
+    org: MIT CSAIL, Julia Lab
+    location: Cambridge, USA (remote)
+    period: May 2025 - Sept. 2025
+    advisor: Dr. Samuel A. Isaacson and Dr. Christopher Rackauckas
+    advisor_url: https://scholar.google.com/citations?user=Ap9PfVQAAAAJ
+    url: https://sciml.ai/news/2025/09/13/jumpprocesses_sciml_fellowship/
+    bullets:
+      - Developed the exact Gillespie SSA and tau-leaping solvers (simple, explicit, implicit, adaptive) for JumpProcesses.jl, with hand-tuned GPU kernels that ran large trajectory ensembles up to 10x faster than the CPU baseline.
+      - Built a variable-rate jump aggregator framework (VR-Direct / VR-FRM with constant-bound and forward-time modes) for state- and time-dependent rates coupled to ODEs, plus a direct event cache for better memory efficiency.
+      - Contributed GPU-optimized Poisson sampling to PoissonRandom.jl, the random-number backbone of the tau-leaping solvers.
+      - Validated the exact-vs-approximate accuracy/speed trade-off on SIR/SEIR epidemiological and chemical-reaction-network models, and added reproducible SciMLBenchmarks.jl comparisons.
+    tags: Julia, CUDA, kernel programming, stochastic simulation, scientific ML
+
+  - role: Summer of Reproducibility Fellow
+    org: University of California, Santa Cruz OSPO
+    location: Santa Cruz, USA (remote)
+    period: May 2025 - Aug. 2025
+    advisor: Dr. Ben Greenman
+    advisor_url: https://scholar.google.com/citations?user=3A9hNTEAAAAJ
+    url: https://github.com/sivasathyaseeelan/ifT-benchmark
+    bullets:
+      - Built a Python-based AI agent (LLM fine-tuning plus tool integration) that detects vulnerable type predicates, code that silently breaks type guarantees, in open-source projects.
+      - Ran the agent over real-world codebases to catalogue unsafe predicates into a labelled testing and benchmarking dataset.
+      - Designed a type-narrowing benchmark across Ruby, Static Python, Pyre, and Clojure to compare how gradual type checkers handle these cases.
+    tags: Python, Ruby, Clojure, gradual typing, AI agents, LLM fine-tuning
+
+work:
+  - role: Machine Learning Engineer
+    org: Ema (ema.ai)
+    location: Bangalore, India
+    period: May 2026 - Present
+    url: https://www.ema.co
+    bullets:
+      - Built end-to-end Temporal ML pipelines (Auto-Learning and Continuous Learning) that auto-generate and refine LLM-based QA-rule instructions, running up to 120 concurrent LLM calls with convergence-based stopping.
+      - Built a self-hosted live UI and API localization engine (11 languages) with Helsinki-NLP OPUS-MT models on CTranslate2; removing the Python wrapper cut per-string latency from 43 ms to about 7 ms with all data kept in-house.
+      - Designed Prometheus observability (ML, LLM, and data-quality metrics) and gRPC services across the Agent-QA platform.
+    tags: Python, LLMs, Temporal, gRPC, GCP, Prometheus, MLOps, NLP
+
+  - role: AI Resident
+    org: Ema (ema.ai)
+    location: Bangalore, India (hybrid)
+    period: Sept. 2025 - Apr. 2026
+    bullets:
+      - Developed a multilingual PII detection and redaction pipeline (Presidio + spaCy NER; GCP DLP with KMS crypto-deterministic de-identification; LLM audit) at 88% accuracy; conversation pairing cut LLM API calls by 67% over 478 transcripts.
+      - Improved the production intent classifier with chain-of-thought prompt restructuring (GPT-4.1 95.1 to 96.0%, GPT-4.1-mini 93.5 to 96.8%).
+      - Built a multi-agent root-cause triaging system for negative feedback at 75-80% accuracy; shipped intent-classifier (96.8%) and tool-calling (92.1%) gains to production.
+    tags: Python, LLMs, agentic AI, prompt engineering, evaluation, NLP
+
+  - role: Software Engineering Intern (Summer of Bitcoin 2025)
+    org: Validating Lightning Signer
+    location: Remote
+    period: May 2025 - Aug. 2025
+    url: https://vls.tech
+    bullets:
+      - Raised unit-test coverage of the Validating Lightning Signer, a security-critical service that isolates Bitcoin Lightning signing keys, past 85%.
+      - Wrote end-to-end and integration tests and applied cargo-mutants mutation testing to catch bugs ordinary tests miss.
+      - Added system-level tests to the GitLab CI/CD pipeline so every change is validated against a live Core Lightning node.
+    tags: Rust, gRPC, CI/CD, Docker, Bitcoin Core, Core Lightning, cryptography
+
+  - role: Software Engineering Intern (Linux Foundation Mentorship)
+    org: Cloud Native Computing Foundation (CNCF), Kyverno
+    location: Remote
+    period: Mar. 2024 - May 2024
+    url: https://kyverno.io
+    bullets:
+      - Built condition-validation logic in Go for Kyverno, a Kubernetes policy engine, to verify container-image attestations before admission.
+      - Integrated Cosign and Notary to handle signed-image verification securely within Kubernetes admission control.
+      - Strengthened the CI/CD pipeline with automated test frameworks, improving the reliability of attestation validation across image sources.
+    tags: Go, Kubernetes, Kyverno, Cosign, Notary, CI/CD, DevSecOps

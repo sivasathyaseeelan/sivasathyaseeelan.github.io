@@ -1,0 +1,35 @@
+# News items shown on the home page sidebar.
+# The 3 most recent are shown; all appear on /allnews.
+# Each entry needs: date, headline
+- date: 25 June, 2026
+  headline: "Our paper on predicting band gaps from chemical composition is published in Scientific Reports"
+
+- date: June, 2026
+  headline: "Our PCCP paper on cluster-size-dependent cooperativity in sulfur-centred hydrogen bonds is out (vol. 28, issue 24)"
+
+- date: May, 2026
+  headline: "Started Google Summer of Code 2026 with JuliaMolSim: native ANI-2x and equivariant ML potentials for Molly.jl, mentored by Dr. Joe Greener"
+
+- date: May, 2026
+  headline: "Joined Ema (ema.ai) in Bangalore as a Machine Learning Engineer"
+
+- date: September, 2025
+  headline: "Joined Ema as an AI Resident, working on PII redaction, intent classification, and multi-agent triaging"
+
+- date: 13 September, 2025
+  headline: "SciML Fellowship report on GPU tau-leaping and variable-rate jumps in JumpProcesses.jl published on sciml.ai"
+
+- date: 2025
+  headline: "Received the IIT Color Award: top 5 of 9,000+ students at IIT (BHU) for contributions in science and technology"
+
+- date: 8 May, 2025
+  headline: "Preprint on multi-label and multi-class molecular taste prediction posted to bioRxiv"
+
+- date: May, 2025
+  headline: "Selected for the SciML Fellowship (MIT Julia Lab), Summer of Bitcoin (Validating Lightning Signer), and Summer of Reproducibility (UC Santa Cruz OSPO)"
+
+- date: July, 2024
+  headline: "Joined Dr. V. Ramanathan's group at IIT (BHU) as a Research Assistant"
+
+- date: March, 2024
+  headline: "Started the Linux Foundation Mentorship with Kyverno (CNCF), building attestation validation for Kubernetes admission control"

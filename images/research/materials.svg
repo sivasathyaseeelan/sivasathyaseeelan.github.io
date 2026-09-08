@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#f0ece4"/>
+  <rect x="40" y="35" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.57"/>
+  <rect x="40" y="65" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.64"/>
+  <rect x="40" y="95" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.90"/>
+  <rect x="40" y="125" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.58"/>
+  <rect x="70" y="35" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.61"/>
+  <rect x="70" y="65" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.66"/>
+  <rect x="70" y="95" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.38"/>
+  <rect x="70" y="125" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.61"/>
+  <rect x="100" y="35" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.69"/>
+  <rect x="100" y="65" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.81"/>
+  <rect x="100" y="95" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.32"/>
+  <rect x="100" y="125" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.46"/>
+  <rect x="130" y="35" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.31"/>
+  <rect x="130" y="65" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.82"/>
+  <rect x="130" y="95" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.74"/>
+  <rect x="130" y="125" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.28"/>
+  <rect x="160" y="35" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.94"/>
+  <rect x="160" y="65" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.93"/>
+  <rect x="160" y="95" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.71"/>
+  <rect x="160" y="125" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.68"/>
+  <rect x="190" y="35" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.36"/>
+  <rect x="190" y="65" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.26"/>
+  <rect x="190" y="95" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.62"/>
+  <rect x="190" y="125" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.29"/>
+  <rect x="220" y="35" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.38"/>
+  <rect x="220" y="65" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.42"/>
+  <rect x="220" y="95" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.27"/>
+  <rect x="220" y="125" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.57"/>
+  <rect x="250" y="35" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.56"/>
+  <rect x="250" y="65" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.84"/>
+  <rect x="250" y="95" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.61"/>
+  <rect x="250" y="125" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.70"/>
+  <rect x="280" y="35" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.60"/>
+  <rect x="280" y="65" width="24" height="24" rx="3" fill="#1f5fa8" fill-opacity="0.71"/>
+  <rect x="280" y="95" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.57"/>
+  <rect x="280" y="125" width="24" height="24" rx="3" fill="#b45309" fill-opacity="0.44"/>
+  <path d="M320,150 L340,80 L360,120 L380,40" fill="none" stroke="#b45309" stroke-width="2"/>
+  <line x1="320" y1="150" x2="380" y2="150" stroke="#8a857c"/>
+  <line x1="320" y1="150" x2="320" y2="40" stroke="#8a857c"/>
+
+  <text x="200" y="190" font-family="Georgia,serif" font-size="11" fill="#8a857c" text-anchor="middle">composition → E<tspan baseline-shift="sub" font-size="8">g</tspan> (eV)</text>
+</svg>

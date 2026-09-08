@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#f0ece4"/>
+  <circle cx="150" cy="95" r="70" fill="none" stroke="#b45309" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="150" y1="95" x2="103" y2="101" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="127" y2="109" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="173" y2="39" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="107" y2="60" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="211" y2="92" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="175" y2="50" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="174" y2="143" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="154" y2="126" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="181" y2="38" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="196" y2="107" stroke="#1f5fa8" stroke-width="1"/>
+  <line x1="150" y1="95" x2="216" y2="91" stroke="#1f5fa8" stroke-width="1"/>
+  <circle cx="103" cy="101" r="5" fill="#1f5fa8"/>
+  <circle cx="127" cy="109" r="5" fill="#1f5fa8"/>
+  <circle cx="173" cy="39" r="5" fill="#1f5fa8"/>
+  <circle cx="62" cy="139" r="5" fill="#1f5fa8"/>
+  <circle cx="107" cy="60" r="5" fill="#1f5fa8"/>
+  <circle cx="239" cy="91" r="5" fill="#1f5fa8"/>
+  <circle cx="211" cy="92" r="5" fill="#1f5fa8"/>
+  <circle cx="175" cy="50" r="5" fill="#1f5fa8"/>
+  <circle cx="174" cy="143" r="5" fill="#1f5fa8"/>
+  <circle cx="154" cy="126" r="5" fill="#1f5fa8"/>
+  <circle cx="181" cy="38" r="5" fill="#1f5fa8"/>
+  <circle cx="196" cy="107" r="5" fill="#1f5fa8"/>
+  <circle cx="114" cy="34" r="5" fill="#1f5fa8"/>
+  <circle cx="216" cy="91" r="5" fill="#1f5fa8"/>
+  <circle cx="150" cy="95" r="7" fill="#b45309"/>
+  <line x1="300" y1="60" x2="340" y2="50" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="60" x2="340" y2="80" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="60" x2="340" y2="110" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="60" x2="340" y2="140" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="95" x2="340" y2="50" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="95" x2="340" y2="80" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="95" x2="340" y2="110" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="95" x2="340" y2="140" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="130" x2="340" y2="50" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="130" x2="340" y2="80" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="130" x2="340" y2="110" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="300" y1="130" x2="340" y2="140" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="340" y1="50" x2="380" y2="95" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="340" y1="80" x2="380" y2="95" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="340" y1="110" x2="380" y2="95" stroke="#8a857c" stroke-width="0.8"/>
+  <line x1="340" y1="140" x2="380" y2="95" stroke="#8a857c" stroke-width="0.8"/>
+  <circle cx="300" cy="60" r="4" fill="#1f5fa8"/>
+  <circle cx="300" cy="95" r="4" fill="#1f5fa8"/>
+  <circle cx="300" cy="130" r="4" fill="#1f5fa8"/>
+  <circle cx="340" cy="50" r="4" fill="#1f5fa8"/>
+  <circle cx="340" cy="80" r="4" fill="#1f5fa8"/>
+  <circle cx="340" cy="110" r="4" fill="#1f5fa8"/>
+  <circle cx="340" cy="140" r="4" fill="#1f5fa8"/>
+  <circle cx="380" cy="95" r="4" fill="#1f5fa8"/>
+  <line x1="220" y1="95" x2="296" y2="95" stroke="#b45309" stroke-width="1.5" marker-end="none"/>
+
+  <text x="200" y="190" font-family="Georgia,serif" font-size="11" fill="#8a857c" text-anchor="middle">local environment → AEV → per-element network → E, F = −∇E</text>
+</svg>

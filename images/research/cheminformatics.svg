@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#f0ece4"/>
+  <line x1="110" y1="55" x2="145" y2="75" stroke="#1f5fa8" stroke-width="2"/>
+  <line x1="145" y1="75" x2="145" y2="115" stroke="#1f5fa8" stroke-width="2"/>
+  <line x1="145" y1="115" x2="110" y2="135" stroke="#1f5fa8" stroke-width="2"/>
+  <line x1="110" y1="135" x2="75" y2="115" stroke="#1f5fa8" stroke-width="2"/>
+  <line x1="75" y1="115" x2="75" y2="75" stroke="#1f5fa8" stroke-width="2"/>
+  <line x1="75" y1="75" x2="110" y2="55" stroke="#1f5fa8" stroke-width="2"/>
+  <line x1="145" y1="75" x2="200" y2="60" stroke="#1f5fa8" stroke-width="2"/>
+  <line x1="200" y1="60" x2="230" y2="95" stroke="#1f5fa8" stroke-width="2"/>
+  <circle cx="230" cy="95" r="6" fill="#b45309"/>
+  <circle cx="75" cy="115" r="6" fill="#b45309"/>
+  <rect x="270" y="60" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="283" y="60" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="296" y="60" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="309" y="60" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="322" y="60" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="335" y="60" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="348" y="60" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+  <rect x="361" y="60" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="270" y="80" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="283" y="80" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="296" y="80" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="309" y="80" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+  <rect x="322" y="80" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="335" y="80" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+  <rect x="348" y="80" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="361" y="80" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="270" y="100" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+  <rect x="283" y="100" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+  <rect x="296" y="100" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+  <rect x="309" y="100" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="322" y="100" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="335" y="100" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+  <rect x="348" y="100" width="10" height="14" fill="#8a857c" fill-opacity="0.3"/>
+  <rect x="361" y="100" width="10" height="14" fill="#1f5fa8" fill-opacity="1"/>
+
+  <text x="200" y="190" font-family="Georgia,serif" font-size="11" fill="#8a857c" text-anchor="middle">SMILES → fingerprints and descriptors → taste, property</text>
+</svg>
