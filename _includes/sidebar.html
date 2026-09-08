@@ -3,7 +3,7 @@
 <img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="profile-photo" alt="{{ site.name }}" width="140" height="140" fetchpriority="high">
 </a>
 <p class="profile-name"><span class="name-first">{{ site.name_first | default: site.name }}</span>{% if site.name_first %} <span class="name-last">{{ site.name_last }}</span>{% endif %}</p>
-<p class="profile-title">{{ site.title }}</p>
+<p class="profile-title">{{ site.title | replace: " · ", "<br>" }}</p>
 <p class="profile-institution">{{ site.institution }}</p>
 <div class="profile-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}

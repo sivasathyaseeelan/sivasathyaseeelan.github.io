@@ -49,12 +49,34 @@
   }
 }
 
-.home-hero-sub {
-  font-size: 1.0625rem;
-  color: var(--text-muted);
+.home-hero-sub,
+.position-line {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-variant: small-caps;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--accent);
   margin-bottom: var(--space-8);
-  font-style: italic;
+  font-style: normal;
   max-width: none;
+
+  .sep {
+    display: inline-block;
+    margin: 0 0.6em;
+    color: var(--text-muted);
+  }
+}
+
+.position-line {
+  margin-bottom: var(--space-1);
+}
+
+// Beat the lead-paragraph rule above, which restyles the first <p>
+.home-content > p.home-hero-sub {
+  font-size: 1.125rem;
+  color: var(--accent);
+  line-height: 1.5;
 }
 
 // Banner image — editorial frame with caption

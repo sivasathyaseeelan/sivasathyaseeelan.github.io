@@ -11,7 +11,8 @@ permalink: /about/
 <img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="160" height="160">
 <div>
 <h2 class="pi-name"><span class="name-first">{{ site.name_first | default: site.name }}</span>{% if site.name_first %} <span class="name-last">{{ site.name_last }}</span>{% endif %}</h2>
-<p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>
+<p class="position-line">{{ site.title | replace: " · ", '<span class="sep">&middot;</span>' }}</p>
+<p style="font-style: italic; color: var(--text-secondary); margin-top: 0;">{{ site.institution }}</p>
 <div class="pi-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
 {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}

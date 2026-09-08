@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <h1 class="home-hero"><span class="name-first">{{ site.name_first | default: site.name }}</span>{% if site.name_first %} <span class="name-last">{{ site.name_last }}</span>{% endif %}</h1>
-<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
+<p class="home-hero-sub">{{ site.title | replace: " · ", '<span class="sep">&middot;</span>' }}</p>
 
 <div class="chip-container" markdown="0">
 <a href="{{ '/research' | relative_url }}" class="chip">ML Interatomic Potentials</a>
