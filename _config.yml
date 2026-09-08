@@ -17,7 +17,7 @@ links:
   orcid: ""
   twitter: ""
   linkedin: "https://www.linkedin.com/in/siva-sathyaseelan"
-  cv: ""  # e.g., "papers/cv.pdf"
+  cv: "papers/cv.pdf"
 
 # ============================================================
 # STEP 3: Site Settings

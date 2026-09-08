@@ -19,7 +19,7 @@ permalink: /about/
 {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
 {% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>{% endif %}
 </div>
-<p style="margin-top: var(--space-4);">Chennai, Tamil Nadu, India</p>
+<p style="margin-top: var(--space-4);">Chennai, Tamil Nadu, India &middot; <a href="{{ '/papers/cv.pdf' | relative_url }}" target="_blank">Download CV (PDF)</a></p>
 </div>
 </div>
 </div>
