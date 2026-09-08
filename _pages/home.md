@@ -17,6 +17,8 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">GPU Computing</a>
 </div>
 
+## About me
+
 I am completing an Integrated Dual Degree (B.Tech + M.Tech) in Industrial Chemistry at the Indian Institute of Technology (BHU), Varanasi, where I work with [Dr. V. Ramanathan](https://scholar.google.com/citations?user=oLHHKoAAAAAJ) on machine learning for molecular property prediction, materials informatics, and flavour science, alongside *ab initio* studies of hydrogen bonding and chemometric analysis of Raman spectra.
 
 In 2025 I was a SciML Fellow at the MIT CSAIL Julia Lab, advised by [Dr. Samuel A. Isaacson](https://scholar.google.com/citations?user=Ap9PfVQAAAAJ) and [Dr. Christopher Rackauckas](https://scholar.google.com/citations?user=1kyW6dwAAAAJ), where I wrote GPU-accelerated Gillespie and tau-leaping solvers and variable-rate jump aggregators for JumpProcesses.jl. The same summer I was a Summer of Reproducibility fellow at the UC Santa Cruz OSPO with [Dr. Ben Greenman](https://scholar.google.com/citations?user=3A9hNTEAAAAJ), building an LLM-based agent and a benchmark for type narrowing in gradual type checkers. In 2026 I am a Google Summer of Code contributor with JuliaMolSim, mentored by [Dr. Joe G. Greener](https://scholar.google.com/citations?user=IG6H3tIAAAAJ) at the University of Cambridge, bringing native ANI-2x and equivariant potentials to Molly.jl. I also work as a Machine Learning Engineer at [Ema](https://www.ema.co), building LLM pipelines, localization systems, and observability for an agentic AI platform.

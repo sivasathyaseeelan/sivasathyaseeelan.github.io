@@ -15,6 +15,8 @@ permalink: /publications/
 
 <h2>Preprints and Manuscripts</h2>
 
+{% bibliography --query @misc %}
+
 {% bibliography --query @unpublished %}
 </div>
 
