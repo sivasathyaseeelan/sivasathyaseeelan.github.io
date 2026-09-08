@@ -76,3 +76,43 @@
     flex-wrap: wrap;
   }
 }
+
+// Solid icon row under the name (envelope, scholar, GitHub, LinkedIn, CV),
+// styled after the Awesome-CV header: larger, accent-coloured, evenly spaced.
+.profile-links,
+.pi-links {
+  gap: var(--space-4);
+
+  .icon-link {
+    color: var(--accent);
+    transition: color 0.2s ease, transform 0.2s ease;
+
+    .icon {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--accent-hover);
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// Name styled like the Awesome-CV header: sans-serif, light first name, bold surname
+.profile-name,
+.home-hero,
+.pi-name {
+  .name-first {
+    font-weight: 400;
+  }
+  .name-last {
+    font-weight: 700;
+  }
+}
+.profile-card .profile-name {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+}

@@ -4,7 +4,7 @@ layout: homelay
 permalink: /
 ---
 
-<h1 class="home-hero">{{ site.name }}</h1>
+<h1 class="home-hero"><span class="name-first">{{ site.name_first | default: site.name }}</span>{% if site.name_first %} <span class="name-last">{{ site.name_last }}</span>{% endif %}</h1>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
@@ -17,12 +17,11 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">GPU Computing</a>
 </div>
 
-I work at the intersection of computational chemistry and scientific machine learning: building machine-learned interatomic potentials, GPU-accelerated molecular and stochastic simulation software in Julia, and data-driven models that predict molecular and materials properties from chemical structure.
+I am completing an Integrated Dual Degree (B.Tech + M.Tech) in Industrial Chemistry at the Indian Institute of Technology (BHU), Varanasi, where I work with [Dr. V. Ramanathan](https://scholar.google.com/citations?user=oLHHKoAAAAAJ) on machine learning for molecular property prediction, materials informatics, and flavour science, alongside *ab initio* studies of hydrogen bonding and chemometric analysis of Raman spectra.
 
-<div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Google Summer of Code 2026 with JuliaMolSim</div>
-<p>Implementing ANI-2x and E(3)-equivariant interatomic potentials natively in Julia for <a href="https://github.com/JuliaMolSim/Molly.jl">Molly.jl</a>, with analytic forces and portable GPU kernels that make Molly the fastest ANI implementation on a 15,954-atom protein. Mentored by Dr. Joe Greener (University of Cambridge).</p>
-</div>
+In 2025 I was a SciML Fellow at the MIT CSAIL Julia Lab, advised by [Dr. Samuel A. Isaacson](https://scholar.google.com/citations?user=Ap9PfVQAAAAJ) and [Dr. Christopher Rackauckas](https://scholar.google.com/citations?user=1kyW6dwAAAAJ), where I wrote GPU-accelerated Gillespie and tau-leaping solvers and variable-rate jump aggregators for JumpProcesses.jl. The same summer I was a Summer of Reproducibility fellow at the UC Santa Cruz OSPO with [Dr. Ben Greenman](https://scholar.google.com/citations?user=3A9hNTEAAAAJ), building an LLM-based agent and a benchmark for type narrowing in gradual type checkers. In 2026 I am a Google Summer of Code contributor with JuliaMolSim, mentored by [Dr. Joe G. Greener](https://scholar.google.com/citations?user=IG6H3tIAAAAJ) at the University of Cambridge, bringing native ANI-2x and equivariant potentials to Molly.jl. I also work as a Machine Learning Engineer at [Ema](https://www.ema.co), building LLM pipelines, localization systems, and observability for an agentic AI platform.
+
+Outside research I captained the IIT (BHU) table tennis team and served as Deputy Contingent Leader for Inter-IIT Tech Meet 13.0, leading a contingent of 90+ members to two gold medals and a bronze.
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
@@ -33,11 +32,3 @@ I work at the intersection of computational chemistry and scientific machine lea
 <p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
 </div>
 {% endif %}
-
-## About me
-
-I am completing an Integrated Dual Degree (B.Tech + M.Tech) in Industrial Chemistry at the Indian Institute of Technology (BHU), Varanasi, where I work with [Dr. V. Ramanathan](https://scholar.google.com/citations?user=oLHHKoAAAAAJ) on machine learning for molecular property prediction, materials informatics, and flavour science, alongside *ab initio* studies of hydrogen bonding and chemometric analysis of Raman spectra.
-
-In 2025 I was a SciML Fellow at the MIT CSAIL Julia Lab, advised by [Dr. Samuel A. Isaacson](https://scholar.google.com/citations?user=Ap9PfVQAAAAJ) and [Dr. Christopher Rackauckas](https://scholar.google.com/citations?user=1kyW6dwAAAAJ), where I wrote GPU-accelerated Gillespie and tau-leaping solvers and variable-rate jump aggregators for JumpProcesses.jl. The same summer I was a Summer of Reproducibility fellow at the UC Santa Cruz OSPO with [Dr. Ben Greenman](https://scholar.google.com/citations?user=3A9hNTEAAAAJ), building an LLM-based agent and a benchmark for type narrowing in gradual type checkers. In 2026 I am a Google Summer of Code contributor with JuliaMolSim, mentored by [Dr. Joe G. Greener](https://scholar.google.com/citations?user=IG6H3tIAAAAJ) at the University of Cambridge, bringing native ANI-2x and equivariant potentials to Molly.jl. I also work as a Machine Learning Engineer at [Ema](https://www.ema.co), building LLM pipelines, localization systems, and observability for an agentic AI platform.
-
-Outside research I captained the IIT (BHU) table tennis team and served as Deputy Contingent Leader for Inter-IIT Tech Meet 13.0, leading a contingent of 90+ members to two gold medals and a bronze.
